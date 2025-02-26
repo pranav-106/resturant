@@ -31,7 +31,7 @@ const DescriptionSearch = () => {
                     searchparams.set("desc",desc);
                     setsearchparams(searchparams);
                 }
-              const response = await axios.get(`http://localhost:5000/getDatabykeywords?page=${page}&desc=${searchparams.get("desc")}`);
+              const response = await axios.get(`https://resturant-1-irer.onrender.com/getDatabykeywords?page=${page}&desc=${searchparams.get("desc")}`);
               console.log(response)
               setrestaurants(response.data);
             } catch (error) {

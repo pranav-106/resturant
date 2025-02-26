@@ -2,7 +2,7 @@
 [Video Link](https://youtu.be/M8ZXLJaZWPk)
 
 # Website Link
-[Website Link](https://webapp-neeraj10122004.onrender.com/)
+[Website Link](https://resturant-2.onrender.com/)
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/UOcNv8Zs)
 # Project Assignment: Zomato Restaurant Listing & Searching

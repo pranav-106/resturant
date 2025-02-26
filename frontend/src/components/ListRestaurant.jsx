@@ -7,7 +7,7 @@ const ListRestaurant = ({ pg,setpg }) => {
   useEffect(() => {
     const fetchRestaurants = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/restaurantdata?page=${pg}`);
+        const response = await axios.get(`https://resturant-1-irer.onrender.com/restaurantdata?page=${pg}`);
         setRestaurants(response.data);
       } catch (error) {
         console.error("Error fetching restaurants:", error);

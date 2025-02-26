@@ -47,7 +47,7 @@ const ImageSearch = () => {
         console.log(matches);
         const fetchRestaurants = async () => {
             try {
-              const response = await axios.get(`http://localhost:5000/getbykeywords?${queryString}&pg=${pg}`);
+              const response = await axios.get(`https://resturant-1-irer.onrender.com/getbykeywords?${queryString}&pg=${pg}`);
               setRestaurants(response.data);
             } catch (error) {
               console.error("Error fetching restaurants:", error);

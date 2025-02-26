@@ -10,7 +10,7 @@ const LocRestaurant = ({ getdata,latitude,longitude,pg,setpg }) => {
         console.log(latitude)
         console.log(longitude)
         console.log(pg)
-        const response = await axios.get(`http://localhost:5000/locrestaurantdata?page=${parseFloat(pg)}&latitude=${parseFloat(latitude)}&longitude=${parseFloat(longitude)}`);
+        const response = await axios.get(`https://resturant-1-irer.onrender.com/locrestaurantdata?page=${parseFloat(pg)}&latitude=${parseFloat(latitude)}&longitude=${parseFloat(longitude)}`);
         console.log(response)
         setRestaurants(response.data);
       } catch (error) {
